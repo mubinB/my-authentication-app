@@ -1,5 +1,6 @@
-package io.mubinb.spring_boot_auth.security;
+package io.mubinb.spring_boot_auth.security.configuraiton;
 
+import io.mubinb.spring_boot_auth.security.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,5 +1,6 @@
-package io.mubinb.spring_boot_auth.security;
+package io.mubinb.spring_boot_auth.security.entity;
 
+import io.mubinb.spring_boot_auth.security.dto.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

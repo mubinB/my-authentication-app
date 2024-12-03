@@ -1,5 +1,6 @@
-package io.mubinb.spring_boot_auth.security;
+package io.mubinb.spring_boot_auth.security.configuraiton;
 
+import io.mubinb.spring_boot_auth.security.filter.JwtFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

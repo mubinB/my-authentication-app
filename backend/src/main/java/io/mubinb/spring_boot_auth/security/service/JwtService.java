@@ -1,4 +1,4 @@
-package io.mubinb.spring_boot_auth.security;
+package io.mubinb.spring_boot_auth.security.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
