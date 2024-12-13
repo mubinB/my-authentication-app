@@ -6,6 +6,11 @@ backend/target/
 *.idea
 backend/.mvn/**
 
+# frontend file
+frontend/.angular
+frontend/.vscode
+frontend/node_modules
+frontend/.editorconfig
 
 # Compiled class file
 *.class
