@@ -1,7 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
+import { AuthService } from './auth.service';
 
 @Component({
   selector: 'app-root',
@@ -10,5 +11,12 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'my-auth-app';
+  authService = inject(AuthService);
+
+  constructor() {
+    this.authService.login( {
+      'username': 'mbn32',
+      'password': 'maste@1996'
+    }).subscribe((response) => console.log(response)) 
+  }
 }
